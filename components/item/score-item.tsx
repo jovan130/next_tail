@@ -11,9 +11,9 @@ export default function ScoreItem({ name, value, isBig, showClass }: Score) {
     return (
         <div className={cn("bg-black border-black rounded-2xl min-w-0 flex-shrink-0", isBig ? "w-[200px]" : "", showClass)}>
             <div
-                className="bg-primary text-center py-5 rounded-2xl border-1 border-black drop-shadow-md shadow-black shadow-lg text-lg">{name}
+                className="bg-primary text-center py-5 rounded-2xl border border-black drop-shadow-md shadow-black shadow-lg text-lg font-primary">{name}
             </div>
-            <p className="text-white py-2 text-center">{value}</p>
+            <p className="text-white py-2 text-center font-primary">{value}</p>
         </div>
     )
 }
