@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import Image from "next/image";
 import Header from "@/components/header";
 import ScoreItem from "@/components/item/score-item";
@@ -33,13 +33,9 @@ export default function Home() {
     },
   ];
 
-  const onStaked = () => {
+  const onStaked = () => {};
 
-  }
-
-  const onUnStaked = () => {
-
-  }
+  const onUnStaked = () => {};
 
   return (
     <div className="min-h-svh bg-primary pb-10">
@@ -111,7 +107,7 @@ export default function Home() {
             decoding="async"
             data-nimg="1"
             className="absolute left-0 top-0 -translate-x-[50%] -translate-y-[30%] w-[150px]"
-            src="/images/token.png"
+            src="/images/coin_big.png"
           />
         </div>
         <div className="max-w-[550px] mx-auto">
